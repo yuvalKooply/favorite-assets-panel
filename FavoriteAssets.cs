@@ -126,6 +126,7 @@ namespace Editor.Private
                 else
                 {
                     _useDataFile = false;
+                    SetDataFile(null);
                     
                     if (!_noDataFileAssets.IsNullOrEmpty())
                     {
